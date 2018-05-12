@@ -1,0 +1,98 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: :0;
+}
+header{
+	background-image: url('../img/hero.jpg');
+	background-size: 100% 100%;
+	height: 500px;
+	color: white;
+
+}
+.logo{padding: 2%;
+}
+
+h1{
+	text-align: center;
+}
+.header-txt{
+	text-align: center
+}
+
+button{
+	display: block;
+	margin:auto;
+	margin-top:3%;
+	background-color:#428bca;
+	color:white;
+	padding: 2%;
+	border-radius: 3%;
+
+
+}
+
+.opacidad{
+	background-color:(0,0, 0.5)
+	height: 500px;
+
+}
+ul{
+	list-style: none;
+	display:flex;
+	justify-content: flex-end;
+}
+
+li{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+h2{
+	text-align: center;
+}
+
+hr{
+	background-color:#428bca;
+	width: 150px;
+	height: 2px;
+	border:0;
+	margin-bottom: 80px;
+	margin-top:5%;
+}
+
+img{
+	width: 500px;
+	height: 500px;
+
+	margin:2%;
+}
+.imagenes{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3%;
+
+}
+
+.img2, .img3{
+	flex-grow: 2;
+}
+
+.servicios{
+	margin:2%;
+	display: flex;
+	text-align: center;
+}
+.serv1, .serv2, .serv3{
+	flex-direction: row;
+	margin: 2%;
+	text-align: center;
+}
+
+i{
+	color:#428bca;
+	font-size: 30pt;
+}
